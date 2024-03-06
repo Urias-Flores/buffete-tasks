@@ -1,0 +1,23 @@
+{
+  "name": "buffete-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tasks.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsc && node dist/main.js",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.10"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.11",
+    "@types/nodemailer": "^6.4.14"
+  }
+}
