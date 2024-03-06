@@ -13,7 +13,8 @@ export async function SendMail() {
     });
   
     const dates = await getDates();
-  
+    console.log('Getting dates...');
+
     dates.forEach( (date: any) =>  {
         const dateDateTime = new Date(date.DateTime);
         const currenteDateTime = new Date();
